@@ -1,0 +1,96 @@
+﻿{
+  "appName": "एग्रीस्मार्ट",
+  "tagline": "जलवायु स्मार्ट कृषि",
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "cropDatabase": "फसल डेटाबेस",
+    "cropAdvisor": "फसल सलाहकार",
+    "problemSolver": "समस्या समाधान",
+    "dailyPlanner": "दैनिक योजनाकार",
+    "adminPanel": "एडमिन पैनल",
+    "signIn": "लॉग इन",
+    "getStarted": "शुरू करें",
+    "signOut": "लॉग आउट"
+  },
+  "landing": {
+    "badge": "जलवायु स्मार्ट कृषि",
+    "heroTitle": "स्मार्ट खेती शुरू होती है",
+    "heroTitleHighlight": "यहाँ से",
+    "heroDesc": "मौसम की जानकारी, फसल सिफारिश, बीमारी निदान और दैनिक योजना — सब एक मंच पर।",
+    "getStartedFree": "मुफ्त शुरू करें",
+    "features": "प्लेटफॉर्म की विशेषताएं",
+    "featuresDesc": "जलवायु-स्मार्ट खेती के निर्णयों के लिए सब कुछ।",
+    "footer": "© 2026 एग्रीस्मार्ट — जलवायु स्मार्ट कृषि निर्णय समर्थन प्रणाली"
+  },
+  "weather": {
+    "title": "लाइव मौसम",
+    "searchPlaceholder": "शहर या गाँव दर्ज करें...",
+    "search": "खोजें",
+    "detectLocation": "मेरा स्थान पता करें",
+    "temperature": "तापमान",
+    "humidity": "आर्द्रता",
+    "wind": "हवा",
+    "rainChance": "वर्षा संभावना",
+    "advisories": "स्मार्ट सलाह",
+    "autoRefresh": "हर 10 मिनट में अपडेट",
+    "loading": "मौसम लोड हो रहा है...",
+    "error": "मौसम की जानकारी उपलब्ध नहीं। इंटरनेट जाँचें या दूसरा शहर आज़माएं।",
+    "feelsLike": "महसूस होता है"
+  },
+  "dashboard": {
+    "welcome": "वापस स्वागत है",
+    "totalCrops": "कुल फसलें",
+    "inDatabase": "डेटाबेस में",
+    "activeSeason": "सक्रिय मौसम",
+    "winterCrops": "रबी फसलें",
+    "weatherScore": "मौसम स्कोर",
+    "forWheat": "आज गेहूं के लिए",
+    "quickLinks": "त्वरित लिंक",
+    "cropAdvisor": "फसल सलाहकार",
+    "problemSolver": "समस्या समाधान",
+    "dailyPlanner": "दैनिक योजनाकार",
+    "cropDatabase": "फसल डेटाबेस"
+  },
+  "recommend": {
+    "title": "फसल सिफारिश सलाहकार",
+    "subtitle": "अपनी जमीन की परिस्थितियों के आधार पर स्मार्ट फसल सुझाव पाएं",
+    "soilType": "मिट्टी का प्रकार",
+    "selectSoil": "मिट्टी चुनें",
+    "season": "मौसम",
+    "selectSeason": "मौसम चुनें",
+    "city": "शहर / गाँव",
+    "tempRange": "तापमान सीमा (°C)",
+    "rainfallRange": "वर्षा सीमा (mm)",
+    "min": "न्यूनतम",
+    "max": "अधिकतम",
+    "getRecommendations": "सिफारिश पाएं",
+    "topResults": "शीर्ष सिफारिशें",
+    "matchScore": "मिलान स्कोर",
+    "whyRecommended": "क्यों सिफारिश की",
+    "expectedYield": "अपेक्षित उपज",
+    "validation": "सिफारिश पाने के लिए कम से कम मिट्टी या मौसम चुनें।"
+  },
+  "login": {
+    "welcome": "एग्रीस्मार्ट में स्वागत है",
+    "subtitle": "अपने खाते में लॉग इन करें",
+    "email": "ईमेल पता",
+    "password": "पासवर्ड",
+    "signIn": "लॉग इन करें",
+    "noAccount": "खाता नहीं है?",
+    "register": "पंजीकरण करें",
+    "demoAccounts": "डेमो खाते",
+    "loginFailed": "लॉग इन विफल",
+    "invalidCredentials": "ईमेल या पासवर्ड गलत है"
+  },
+  "confidence": {
+    "High": "उच्च मिलान",
+    "Medium": "मध्यम मिलान",
+    "Low": "कम मिलान"
+  },
+  "seasons": {
+    "Kharif": "खरीफ (मानसून)",
+    "Rabi": "रबी (सर्दी)",
+    "KharifRabi": "दोनों मौसम"
+  }
+}
+

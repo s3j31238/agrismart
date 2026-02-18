@@ -1,0 +1,96 @@
+﻿{
+  "appName": "AgriSmart",
+  "tagline": "Climate Smart Agriculture",
+  "nav": {
+    "dashboard": "Dashboard",
+    "cropDatabase": "Crop Database",
+    "cropAdvisor": "Crop Advisor",
+    "problemSolver": "Problem Solver",
+    "dailyPlanner": "Daily Planner",
+    "adminPanel": "Admin Panel",
+    "signIn": "Sign In",
+    "getStarted": "Get Started",
+    "signOut": "Sign Out"
+  },
+  "landing": {
+    "badge": "Climate Smart Agriculture",
+    "heroTitle": "Smarter Farming Starts",
+    "heroTitleHighlight": "Here",
+    "heroDesc": "A complete decision support system combining weather intelligence, crop recommendations, disease diagnosis, and daily planning — all in one platform.",
+    "getStartedFree": "Get Started Free",
+    "features": "Platform Features",
+    "featuresDesc": "Everything you need for climate-smart farming decisions.",
+    "footer": "© 2026 AgriSmart — Climate Smart Agriculture Decision Support System"
+  },
+  "weather": {
+    "title": "Live Weather",
+    "searchPlaceholder": "Enter city or village...",
+    "search": "Search",
+    "detectLocation": "Detect My Location",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "rainChance": "Rain Chance",
+    "advisories": "Smart Advisories",
+    "autoRefresh": "Auto-refreshes every 10 min",
+    "loading": "Fetching weather...",
+    "error": "Weather unavailable. Check your internet or try another city.",
+    "feelsLike": "Feels Like"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "totalCrops": "Total Crops",
+    "inDatabase": "In database",
+    "activeSeason": "Active Season",
+    "winterCrops": "Winter crops",
+    "weatherScore": "Weather Score",
+    "forWheat": "For wheat today",
+    "quickLinks": "Quick Links",
+    "cropAdvisor": "Crop Advisor",
+    "problemSolver": "Problem Solver",
+    "dailyPlanner": "Daily Planner",
+    "cropDatabase": "Crop Database"
+  },
+  "recommend": {
+    "title": "Crop Recommendation Advisor",
+    "subtitle": "Get smart crop suggestions based on your land conditions",
+    "soilType": "Soil Type",
+    "selectSoil": "Select soil type",
+    "season": "Season",
+    "selectSeason": "Select season",
+    "city": "City / Village",
+    "tempRange": "Temperature Range (°C)",
+    "rainfallRange": "Rainfall Range (mm)",
+    "min": "Min",
+    "max": "Max",
+    "getRecommendations": "Get Recommendations",
+    "topResults": "Top Recommendations",
+    "matchScore": "Match Score",
+    "whyRecommended": "Why Recommended",
+    "expectedYield": "Expected Yield",
+    "validation": "Please select at least Soil Type or Season to get recommendations."
+  },
+  "login": {
+    "welcome": "Welcome to AgriSmart",
+    "subtitle": "Sign in to your account",
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account?",
+    "register": "Register",
+    "demoAccounts": "Demo Accounts",
+    "loginFailed": "Login Failed",
+    "invalidCredentials": "Invalid email or password"
+  },
+  "confidence": {
+    "High": "High Match",
+    "Medium": "Medium Match",
+    "Low": "Low Match"
+  },
+  "seasons": {
+    "Kharif": "Kharif (Monsoon)",
+    "Rabi": "Rabi (Winter)",
+    "KharifRabi": "Both Seasons"
+  }
+}
+

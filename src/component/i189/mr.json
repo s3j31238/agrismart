@@ -1,0 +1,96 @@
+﻿{
+  "appName": "अॅग्रीस्मार्ट",
+  "tagline": "हवामान स्मार्ट शेती",
+  "nav": {
+    "dashboard": "डॅशबोर्ड",
+    "cropDatabase": "पीक डेटाबेस",
+    "cropAdvisor": "पीक सल्लागार",
+    "problemSolver": "समस्या निराकरण",
+    "dailyPlanner": "दैनंदिन नियोजक",
+    "adminPanel": "अॅडमिन पॅनेल",
+    "signIn": "लॉग इन",
+    "getStarted": "सुरू करा",
+    "signOut": "लॉग आउट"
+  },
+  "landing": {
+    "badge": "हवामान स्मार्ट शेती",
+    "heroTitle": "स्मार्ट शेती सुरू होते",
+    "heroTitleHighlight": "इथूनच",
+    "heroDesc": "हवामान माहिती, पीक शिफारस, रोग निदान आणि दैनंदिन नियोजन — सर्व एका व्यासपीठावर.",
+    "getStartedFree": "मोफत सुरू करा",
+    "features": "व्यासपीठाची वैशिष्ट्ये",
+    "featuresDesc": "हवामान-स्मार्ट शेती निर्णयांसाठी सर्व काही.",
+    "footer": "© 2026 अॅग्रीस्मार्ट — हवामान स्मार्ट कृषी निर्णय समर्थन प्रणाली"
+  },
+  "weather": {
+    "title": "थेट हवामान",
+    "searchPlaceholder": "शहर किंवा गाव टाका...",
+    "search": "शोधा",
+    "detectLocation": "माझे स्थान शोधा",
+    "temperature": "तापमान",
+    "humidity": "आर्द्रता",
+    "wind": "वारा",
+    "rainChance": "पावसाची शक्यता",
+    "advisories": "स्मार्ट सल्ला",
+    "autoRefresh": "दर 10 मिनिटांनी अपडेट",
+    "loading": "हवामान लोड होत आहे...",
+    "error": "हवामान माहिती उपलब्ध नाही. इंटरनेट तपासा किंवा दुसरे शहर वापरा.",
+    "feelsLike": "जाणवते"
+  },
+  "dashboard": {
+    "welcome": "परत स्वागत",
+    "totalCrops": "एकूण पिके",
+    "inDatabase": "डेटाबेसमध्ये",
+    "activeSeason": "सक्रिय हंगाम",
+    "winterCrops": "रब्बी पिके",
+    "weatherScore": "हवामान स्कोर",
+    "forWheat": "आज गव्हासाठी",
+    "quickLinks": "जलद दुवे",
+    "cropAdvisor": "पीक सल्लागार",
+    "problemSolver": "समस्या निराकरण",
+    "dailyPlanner": "दैनंदिन नियोजक",
+    "cropDatabase": "पीक डेटाबेस"
+  },
+  "recommend": {
+    "title": "पीक शिफारस सल्लागार",
+    "subtitle": "तुमच्या जमिनीच्या परिस्थितीनुसार स्मार्ट पीक सुचवणी मिळवा",
+    "soilType": "मातीचा प्रकार",
+    "selectSoil": "माती निवडा",
+    "season": "हंगाम",
+    "selectSeason": "हंगाम निवडा",
+    "city": "शहर / गाव",
+    "tempRange": "तापमान श्रेणी (°C)",
+    "rainfallRange": "पाऊस श्रेणी (mm)",
+    "min": "किमान",
+    "max": "कमाल",
+    "getRecommendations": "शिफारसी मिळवा",
+    "topResults": "सर्वोत्तम शिफारसी",
+    "matchScore": "जुळणी स्कोर",
+    "whyRecommended": "का शिफारस केली",
+    "expectedYield": "अपेक्षित उत्पन्न",
+    "validation": "शिफारसी मिळविण्यासाठी किमान माती किंवा हंगाम निवडा."
+  },
+  "login": {
+    "welcome": "अॅग्रीस्मार्टमध्ये स्वागत",
+    "subtitle": "तुमच्या खात्यात लॉग इन करा",
+    "email": "ईमेल पत्ता",
+    "password": "पासवर्ड",
+    "signIn": "लॉग इन करा",
+    "noAccount": "खाते नाही?",
+    "register": "नोंदणी करा",
+    "demoAccounts": "डेमो खाती",
+    "loginFailed": "लॉग इन अयशस्वी",
+    "invalidCredentials": "ईमेल किंवा पासवर्ड चुकीचा आहे"
+  },
+  "confidence": {
+    "High": "उच्च जुळणी",
+    "Medium": "मध्यम जुळणी",
+    "Low": "कमी जुळणी"
+  },
+  "seasons": {
+    "Kharif": "खरीप (पावसाळा)",
+    "Rabi": "रब्बी (हिवाळा)",
+    "KharifRabi": "दोन्ही हंगाम"
+  }
+}
+

@@ -1,0 +1,29 @@
+export interface CropProblem {
+  id: string;
+  cropId: string;
+  type: "Pest" | "Disease" | "Nutrient Deficiency" | "Water Issue";
+  name: string;
+  explanation: string;
+  treatment: string;
+  preventiveMeasures: string;
+  recoveryTime: string;
+  confidence: "High" | "Medium" | "Low";
+}
+
+export const cropProblems: CropProblem[] = [
+  { id: "p1", cropId: "rice", type: "Pest", name: "Stem Borer", explanation: "Larvae bore into stems causing 'dead heart' in vegetative stage and 'white ear' in reproductive stage.", treatment: "Apply Cartap Hydrochloride 4G @ 25 kg/ha or spray Chlorantraniliprole 18.5% SC.", preventiveMeasures: "Use light traps, remove stubbles after harvest, maintain proper water management.", recoveryTime: "2-3 weeks", confidence: "High" },
+  { id: "p2", cropId: "rice", type: "Disease", name: "Blast Disease", explanation: "Fungal disease causing diamond-shaped lesions on leaves, nodes, and panicles.", treatment: "Spray Tricyclazole 75% WP @ 0.6g/L or Isoprothiolane 40% EC.", preventiveMeasures: "Use resistant varieties, avoid excess nitrogen, ensure proper spacing.", recoveryTime: "10-14 days", confidence: "High" },
+  { id: "p3", cropId: "wheat", type: "Disease", name: "Rust (Yellow/Brown)", explanation: "Fungal disease forming pustules on leaves, reducing photosynthesis and grain filling.", treatment: "Spray Propiconazole 25% EC @ 1ml/L at first appearance.", preventiveMeasures: "Grow resistant varieties, timely sowing, balanced fertilization.", recoveryTime: "2-3 weeks", confidence: "High" },
+  { id: "p4", cropId: "cotton", type: "Pest", name: "Bollworm", explanation: "Larvae feed on squares, flowers, and bolls causing significant yield loss.", treatment: "Apply Emamectin Benzoate 5% SG or use Bt cotton varieties.", preventiveMeasures: "Install pheromone traps, refuge planting, crop rotation.", recoveryTime: "3-4 weeks", confidence: "High" },
+  { id: "p5", cropId: "tomato", type: "Disease", name: "Late Blight", explanation: "Water-soaked lesions on leaves and fruits, rapid spread in humid conditions.", treatment: "Spray Mancozeb 75% WP or Metalaxyl + Mancozeb combination.", preventiveMeasures: "Avoid overhead irrigation, proper spacing, remove infected debris.", recoveryTime: "2-3 weeks", confidence: "High" },
+  { id: "p6", cropId: "potato", type: "Disease", name: "Early Blight", explanation: "Concentric ring-shaped brown spots on older leaves, spreads upward.", treatment: "Apply Chlorothalonil or Mancozeb at 7-10 day intervals.", preventiveMeasures: "Crop rotation, certified seed tubers, balanced nutrition.", recoveryTime: "2 weeks", confidence: "Medium" },
+  { id: "p7", cropId: "maize", type: "Pest", name: "Fall Armyworm", explanation: "Larvae feed voraciously on leaves creating windowpane damage and large holes.", treatment: "Spray Spinetoram 11.7% SC or Emamectin Benzoate 5% SG.", preventiveMeasures: "Early sowing, intercropping, use pheromone traps.", recoveryTime: "2-3 weeks", confidence: "High" },
+  { id: "p8", cropId: "rice", type: "Nutrient Deficiency", name: "Nitrogen Deficiency", explanation: "Yellowing of older leaves, stunted growth, reduced tillering.", treatment: "Apply urea at 40-60 kg/ha as top dressing in 2-3 splits.", preventiveMeasures: "Soil testing before planting, use Leaf Color Chart for N management.", recoveryTime: "1-2 weeks", confidence: "High" },
+  { id: "p9", cropId: "wheat", type: "Water Issue", name: "Waterlogging", explanation: "Excess soil moisture causes root rot, yellowing, and poor nutrient uptake.", treatment: "Improve drainage immediately, apply foliar nutrients if accessible.", preventiveMeasures: "Raised bed planting, proper field leveling, drainage channels.", recoveryTime: "1-2 weeks after drainage", confidence: "Medium" },
+  { id: "p10", cropId: "onion", type: "Disease", name: "Purple Blotch", explanation: "Purple concentric lesions on leaves causing dieback from tips.", treatment: "Spray Mancozeb 75% WP or Chlorothalonil at 10-day intervals.", preventiveMeasures: "Crop rotation, proper spacing, avoid excess irrigation.", recoveryTime: "2-3 weeks", confidence: "Medium" },
+  { id: "p11", cropId: "soybean", type: "Pest", name: "Girdle Beetle", explanation: "Adults girdle stems and petioles causing wilting and pod shedding.", treatment: "Spray Triazophos 40% EC or Quinalphos 25% EC.", preventiveMeasures: "Deep summer plowing, timely sowing, intercropping.", recoveryTime: "2-3 weeks", confidence: "Medium" },
+  { id: "p12", cropId: "sugarcane", type: "Pest", name: "Top Borer", explanation: "Larvae bore into growing point causing 'dead heart' and bunchy top.", treatment: "Apply Coragen (Chlorantraniliprole) or release Trichogramma.", preventiveMeasures: "Trash mulching, detrashing at 150 days, use healthy seed material.", recoveryTime: "3-4 weeks", confidence: "High" },
+  { id: "p13", cropId: "groundnut", type: "Disease", name: "Tikka Disease", explanation: "Circular brown spots on leaves leading to defoliation and yield loss.", treatment: "Spray Carbendazim 50% WP @ 1g/L or Hexaconazole.", preventiveMeasures: "Use resistant varieties, seed treatment, crop rotation.", recoveryTime: "2 weeks", confidence: "High" },
+  { id: "p14", cropId: "chickpea", type: "Disease", name: "Wilt (Fusarium)", explanation: "Plants wilt and die, brown discoloration in vascular tissues.", treatment: "Seed treatment with Trichoderma viride or Carbendazim.", preventiveMeasures: "Resistant varieties, crop rotation (3 years), deep summer plowing.", recoveryTime: "Not recoverable in affected plants", confidence: "High" },
+  { id: "p15", cropId: "mustard", type: "Pest", name: "Aphid", explanation: "Colonies suck sap from shoots and flowers, secrete honeydew causing sooty mold.", treatment: "Spray Dimethoate 30% EC or Imidacloprid 17.8% SL.", preventiveMeasures: "Timely sowing, yellow sticky traps, conserve natural enemies.", recoveryTime: "1-2 weeks", confidence: "High" },
+];
